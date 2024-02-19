@@ -1,0 +1,83 @@
+.container-tour-da-dat{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 0 3%;
+}
+.container-tour-da-dat .tdd{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    padding-bottom: 20px;
+}
+.tdd .t-tdd{
+    width: 100%;
+    padding: 10px;
+    background-color: #836ff4;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 10px 0px #836ff4;
+    margin-bottom: 20px;
+}
+.info-tdd{
+    width: 100%;
+    display: flex;
+}
+.info-tdd .info-nd{
+    width:40%;
+    padding: 10px 20px;
+    border-right: 1px solid rgba(0,0,0,.3);
+}
+.info-nd .t-i{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.info-nd  .n-i li{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: rgb(76, 76, 76);
+    font-family: 'Times New Roman', Times, serif;
+}
+.info-tdd .info-t{
+    width: 60%;
+    padding: 10px 20px;
+}
+.info-t .n-t{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.info-t div{
+    margin-bottom: 20px;
+}
+.ghi-chu{
+    margin:20px 0;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border: 2px solid #836ff4;
+    border-radius: 4px;
+    background-color: #E97777;
+}
+form button{
+    width: 120px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: aliceblue;
+    background-color: #ff8432;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+form button:hover{
+    transform: translateY(-3px);
+    background-color: #f8731b;
+}

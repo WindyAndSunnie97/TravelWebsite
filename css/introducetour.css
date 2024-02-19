@@ -1,0 +1,40 @@
+.contaner-introducetour{
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(237, 188, 226);
+    background-color: #FFD5F6
+}
+.introducetour{
+
+}
+.slogan-introducetour{
+display: flex;
+padding-top: 20px;
+}
+.introducetour.img-tour img {
+    border-end-end-radius: 180px;
+    width: 800px;
+    height: 350px;
+    object-fit: cover;
+    display: flex;
+    padding-bottom: 10px;
+}
+.text-introducetour h6{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 10, 10);
+}
+.video-introducetour video{
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+.right-introducetour{
+    display: flex;
+    width: 100%;
+}
+.right-introducetour img{
+    width: 750px;
+    height: 485px;
+    border-radius: 50px;
+}

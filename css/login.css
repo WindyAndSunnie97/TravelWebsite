@@ -1,0 +1,77 @@
+.login{
+    background-position: center;
+    position: relative;
+    background-color: rgb(239, 196, 228, 0.2);
+    margin-top: 55px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 50%;
+}
+.form{
+    width: 85%;
+}
+.login-content-items{
+    margin-top: 23px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+} 
+.login-content-items input{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+padding: 0px;
+}
+.login-content-items form  h1{
+text-align: center;
+margin-bottom: 20px;
+font-size: 40px;
+margin-top: -25px;
+margin-left: 100px;
+}
+
+.login form .input{
+display: flex;
+align-items: center;
+width: 100%;
+padding: 7px;
+}
+.login input{
+width: 70%;
+height: 40px;
+border-radius: 6px;
+padding: 12px;
+background: rgb(255, 244, 251);
+color: rgb(0, 0, 0);
+font-size: 20px;
+}
+.login-content-items input:focus{
+	box-shadow: 0px 0px 10px rgba(0,0,0,.7);
+	border: none;
+}
+.login label{
+  
+    width: 30%;
+    font-size: 22px;
+}
+.login button {
+    border: none;
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #ffa9e2;
+	transition: transform ease .5s;
+	font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    align-items: center;
+}
+.login button:hover {
+    transform: translateY(-3px);
+	background-color: #ff81c4;
+	cursor: pointer;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.2); 
+} 

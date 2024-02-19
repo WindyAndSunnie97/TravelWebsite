@@ -1,0 +1,78 @@
+.container-trang-chu{
+    width: 100%;
+    height: 100%;
+    padding: 10px 3%;
+}
+.trang-chu{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.trang-chu .title-giam-gia{
+    margin: 30px 0px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #f4b6e2;
+    border-radius: 10px;
+    padding: 5px;
+}
+.container-tour-giam-gia{
+    width: 100%;
+}
+.tour-giam-gia{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.img-giam-gia img{
+    width: 100%;
+    object-fit: cover;
+    height: 170px;
+}
+.t-giam-gia{
+    flex: 0 20%;
+    width: 20%;
+    padding: 10px;
+}
+.inner-t-giam-gia{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    transition: transform ease .4s;
+    position: relative;
+}
+.inner-t-giam-gia .giamgia{
+    padding-bottom: 50px;
+}
+.inner-t-giam-gia .details-giam-gia{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details-giam-gia button{
+    width: 70%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(249, 128, 188);
+    color: white;
+    margin-top: -65px;
+    font-size: 15px;
+
+}
+.name-giam-gia {
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

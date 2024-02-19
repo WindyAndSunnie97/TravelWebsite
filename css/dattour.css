@@ -1,0 +1,173 @@
+/* .container-dattour{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dattour{
+    width: 80%;
+}
+.title{
+    text-align: center;
+    color: rgb(53, 120, 253);
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid black;
+}
+.tennguoidat{
+    display: flex;
+}
+.tennguoidat > h3{
+    margin-left: 40px;
+}
+.sodienthoainguoidat {
+    display: flex;
+}
+.sodienthoainguoidat > h3{
+    margin-left: 40px;
+} */
+.container-dattour{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    padding: 0 2%;
+}
+.title{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.dattour{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0 2%;
+}
+.dattour form{
+    width: 100%;
+    height: 100%;
+}
+.dattour .dat-tour-header{
+    width: 100%;
+    display: flex;
+}
+.dat-tour-header .image-tour{
+    width: 40%;
+    padding: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+  
+}
+.t-nguoi-dat{
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.name-nd, .sdt-nd{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: rgb(79, 79, 79);
+}
+.dat-tour-header .thong-tin{
+    width: 60%;
+    padding: 10px 30px;
+}
+.thong-tin .name-tour{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 77, 199);
+    margin-bottom: 40px;
+}
+.thong-tin .lich-trinh, .thong-tin .so-luong{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.thong-tin .lich-trinh span, .thong-tin .so-luong span{
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+.ngang1{
+    margin: 30px 0;
+    height: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, rgb(254, 240, 138), rgb(251, 207, 232), rgb(244, 114, 182));
+    border-radius: 8px;
+}
+.thanh-toan{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.thanh-toan .tt-l{
+    width: 60%;
+}
+.thanh-toan .tt-r{
+    width: 40%;
+  
+}
+.giam-gia, .tong-tien{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.giam-gia span, .tong-tien span{
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+.btn-tt {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.btn-tt  button{
+    width: 50%;
+    height: 37px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #ef86ac;
+}
+.dat-tour-body{
+    width: 100%;
+    height: 100%;
+}
+.nguoi-di{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    color: #374259;
+}
+.name-nguoi-di{
+    width: 40%;
+    padding: 17px 20px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.name-nguoi-di label{
+    width:40%;
+}
+.name-nguoi-di input{
+    width: 50%;
+    height: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+.name-nguoi-di input:focus{
+    outline: none;
+    box-shadow: 0px 0px 2px 1px rgba(249, 64, 190, 0.4);
+    border: 1px solid rgba(249, 64, 190, 0.4);
+}
+.gioi-tinh-nguoi-di{
+    width: 60%;
+}
+.gioi-tinh-nguoi-di label{
+   margin-right: 20px;
+}

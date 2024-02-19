@@ -1,0 +1,11 @@
+.footer{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 218, 239, 0.799), rgba(255, 99, 180, 0.689));
+    height: 450px;
+    width: 100%;
+}
+.logo-footer{
+        width: 100px;
+        border-radius: 100%;
+        padding: 50px;
+}
+
